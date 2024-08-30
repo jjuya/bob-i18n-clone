@@ -1,31 +1,33 @@
 {
-  "name": "bob-i18n-clone",
-  "version": "1.0.0",
-  "repository": "git@github.com:jjuya/bob-i18n-clone.git",
-  "author": "jjuya <404_jjuya@kakao.com>",
-  "license": "MIT",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start -p 3000"
-  },
-  "dependencies": {
-    "antd": "^5.20.2",
-    "next": "^14.2.6",
-    "next-intl": "^3.17.6",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "styled-components": "^6.1.12"
-  },
-  "devDependencies": {
-    "@types/node": "^22.5.0",
-    "@types/react": "^18.3.4",
-    "@types/react-dom": "^18.3.0",
-    "@typescript-eslint/eslint-plugin": "^8.2.0",
-    "@typescript-eslint/parser": "^8.2.0",
-    "eslint": "^9.9.0",
-    "eslint-config-next": "^14.2.6",
-    "prettier": "^3.3.3",
-    "typescript": "^5.5.4"
-  }
+	"name": "bob-i18n-clone",
+	"version": "1.0.0",
+	"repository": "git@github.com:jjuya/bob-i18n-clone.git",
+	"author": "jjuya <404_jjuya@kakao.com>",
+	"license": "MIT",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start -p 3000"
+	},
+	"dependencies": {
+		"antd": "^5.20.2",
+		"next": "^14.2.6",
+		"next-intl": "^3.17.6",
+		"next-seo": "^6.5.0",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"styled-components": "^6.1.12",
+		"styled-media-query": "^2.1.2"
+	},
+	"devDependencies": {
+		"@types/node": "^22.5.0",
+		"@types/react": "^18.3.4",
+		"@types/react-dom": "^18.3.0",
+		"@typescript-eslint/eslint-plugin": "^8.2.0",
+		"@typescript-eslint/parser": "^8.2.0",
+		"eslint": "^9.9.0",
+		"eslint-config-next": "^14.2.6",
+		"prettier": "^3.3.3",
+		"typescript": "^5.5.4"
+	}
 }
