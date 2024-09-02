@@ -1,1 +1,62 @@
-{}
+{
+	"SEO": {
+		"title": "BOB",
+		"description": "The freshness of Mother Nature",
+		"openGraph": {
+			"type": "website",
+			"locale": "en_US",
+			"title": "BOB",
+			"description": "The freshness of Mother Nature",
+			"site_name": "BOB",
+			"images": [
+				{
+					"url": "/static/images/main_logo.jpg",
+					"alt": "BOB"
+				}
+			]
+		}
+	},
+	"MAIN": {
+		"img": {
+			"src": "/static/images/main-logo.jpg",
+			"alt": "BOB-logo"
+		},
+		"title": "The freshness of Mother Nature"
+	},
+	"ABOUT_US": {
+		"ceoImg": {
+			"src": "/static/images/home/ceo-img.png",
+			"alt": "ceo"
+		},
+		"greeting": {
+			"title": "Greeting"
+		},
+		"sign": {
+			"label": "C.E.O .",
+			"img": {
+				"src": "/static/images/home/ceo-sign.png",
+				"alt": "sign"
+			}
+		}
+	},
+	"FACTORY": {
+		"withIn": {
+			"title": "Within the country"
+		},
+		"outside": {
+			"title": "Outside the country"
+		}
+	},
+	"BUSINESS_PROFILE": {
+		"title": "DOWNLOAD",
+		"img": {
+			"src": "/static/images/home/pdf-img.png",
+			"alt": "business-profile"
+		},
+		"ko": {
+			"label": "KOREAN",
+			"href": "/static/etc/About_BOB(ko).pdf"
+		},
+		"jp": { "label": "日本語", "href": "/static/etc/About_BOB(jp).pdf" }
+	}
+}

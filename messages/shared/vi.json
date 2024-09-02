@@ -1,1 +1,62 @@
-{}
+{
+	"SEO": {
+		"title": "BOB",
+		"description": "Sự tươi mới của thiên nhiên",
+		"openGraph": {
+			"type": "website",
+			"locale": "vi_VN",
+			"title": "BOB",
+			"description": "Sự tươi mới của thiên nhiên",
+			"site_name": "BOB",
+			"images": [
+				{
+					"url": "/static/images/main_logo.jpg",
+					"alt": "BOB"
+				}
+			]
+		}
+	},
+	"MAIN": {
+		"img": {
+			"src": "/static/images/main-logo.jpg",
+			"alt": "BOB-logo"
+		},
+		"title": "Sự tươi mới của thiên nhiên"
+	},
+	"ABOUT_US": {
+		"ceoImg": {
+			"src": "/static/images/home/ceo-img.png",
+			"alt": "ceo"
+		},
+		"greeting": {
+			"title": "Lời chào"
+		},
+		"sign": {
+			"label": "Tổng giám đốc.",
+			"img": {
+				"src": "/static/images/home/ceo-sign.png",
+				"alt": "sign"
+			}
+		}
+	},
+	"FACTORY": {
+		"withIn": {
+			"title": "Tại Hàn Quốc"
+		},
+		"outside": {
+			"title": "Tại Nước ngoài"
+		}
+	},
+	"BUSINESS_PROFILE": {
+		"title": "Tải tài liệu giới thiệu công ty",
+		"img": {
+			"src": "/static/images/home/pdf-img.png",
+			"alt": "business-profile"
+		},
+		"ko": {
+			"label": "KOREAN",
+			"href": "/static/etc/About_BOB(ko).pdf"
+		},
+		"jp": { "label": "日本語", "href": "/static/etc/About_BOB(jp).pdf" }
+	}
+}
