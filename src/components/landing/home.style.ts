@@ -31,10 +31,10 @@ export const ContentWrapper = styled.div`
 	max-width: 1440px;
 `
 
-export const MainSection = styled.section`
+export const MainSection = styled.section<{imageUrl: string}>`
 	padding: 20px 16px;
 	height: 1010px;
-	background: #ffffff url('${(props: any) => props.imageurl}') no-repeat right bottom;
+	background: #ffffff url('${(props: any) => props.imageUrl}') no-repeat right bottom;
 	background-size: 70% 70%;
 	.main-wrapper {
 		position: relative;

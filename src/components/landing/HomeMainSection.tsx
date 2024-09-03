@@ -6,7 +6,7 @@ export const HomeMainSection = ({ CDN_ENDPOINT, ...props }: { CDN_ENDPOINT: stri
 	const t = useTranslations('MAIN')
 
 	return (
-		<MainSection imageurl={`${CDN_ENDPOINT}/static/images/home/main-bg.png`}>
+		<MainSection imageUrl={`${CDN_ENDPOINT}/static/images/home/main-bg.png`}>
 			<div className="main-wrapper">
 				<div className="title-wrapper">
 					<img
