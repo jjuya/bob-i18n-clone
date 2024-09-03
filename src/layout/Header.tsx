@@ -1,18 +1,12 @@
 import React, { useState } from 'react'
+import { useTranslations } from 'next-intl'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-import { useTranslations } from 'next-intl'
-import { Row, Col, Button, Divider } from 'antd'
+import { Row, Col } from 'antd'
 import { HeaderContainer, HeaderContentWrapper, HeaderMenu } from './layout.style'
+import LocaleSwitcher from '@/components/shared/LocaleSwitcher'
 
-export const Header = ({
-	lang,
-	onClickLangBtn,
-	...props
-}: {
-	lang: string
-	onClickLangBtn: Event
-}) => {
+export const Header = ({ lang, ...props }: { lang: string; onClickLangBtn: Event }) => {
 	const CDN_ENDPOINT = process.env.CDN_ENDPOINT
 
 	const headerContent = useTranslations('HEADER')
@@ -43,6 +37,7 @@ export const Header = ({
 							{menuKeys?.map((key: string) => (
 								<Link
 									href={`#${key}`}
+									key={key}
 									className={menuActiveKey === key ? 'active' : undefined}
 									onClick={onClickMenu(key)}>
 									{headerContent(`menuItems.${key}`)}
@@ -51,21 +46,7 @@ export const Header = ({
 						</HeaderMenu>
 					</Col>
 					<Col className="language-wrapper">
-						<Button type="link" onClick={onClickLangBtn('ko')}>
-							한국어
-						</Button>
-						<Divider type="vertical" className="divider" />
-						<Button type="link" onClick={onClickLangBtn('en')}>
-							English
-						</Button>
-						<Divider type="vertical" className="divider" />
-						<Button type="link" onClick={onClickLangBtn('vi')}>
-							Tiếng Việt
-						</Button>
-						<Divider type="vertical" className="divider" />
-						<Button type="link" onClick={onClickLangBtn('ja')}>
-							日本語
-						</Button>
+						<LocaleSwitcher />
 					</Col>
 				</Row>
 			</HeaderContentWrapper>

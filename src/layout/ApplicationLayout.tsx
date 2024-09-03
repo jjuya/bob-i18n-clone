@@ -32,18 +32,9 @@ export const ApplicationLayout = ({
 		Object.assign(contentStyle, { backgroundColor })
 	}
 
-	const onClickLangBtn = (lang: string) => () => {
-		setLang(lang)
-		if (lang === 'ko') {
-			router.push('/')
-		} else {
-			router.push(lang)
-		}
-	}
-
 	return (
 		<LayoutContainer className="layout">
-			<Header lang={lang} onClickLangBtn={onClickLangBtn} />
+			<Header lang={lang} />
 			<Content style={contentStyle}>{children}</Content>
 			<Footer lang={lang} />
 		</LayoutContainer>
