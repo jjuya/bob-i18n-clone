@@ -18,7 +18,7 @@ export default function LocaleSwitcher() {
 				const { pathname, query, asPath } = router
 				return (
 					<React.Fragment>
-						<Link href={{ pathname, query }} as={asPath} locale={locale} legacyBehavior>
+						<Link href={{ pathname, query }} as={asPath} locale={locale} key={locale} legacyBehavior>
 							<Button type="link">
 								{headerContent(`languageSwitcher.${locale}`)}
 							</Button>
@@ -29,22 +29,6 @@ export default function LocaleSwitcher() {
 					</React.Fragment>
 				)
 			})}
-
-			{/*{otherLocale &&*/}
-			{/*	otherLocale?.map((locale) => {*/}
-			{/*		return (*/}
-			{/*			<React.Fragment>*/}
-			{/*				<Link*/}
-			{/*					href={{ pathname, query }}*/}
-			{/*					as={asPath}*/}
-			{/*					locale={locale}*/}
-			{/*					legacyBehavior>*/}
-			{/*					<Button type="link">{headerContent('languageSwitcher.ko')}</Button>*/}
-			{/*				</Link>*/}
-			{/*				<Divider type="vertical" className="divider" />*/}
-			{/*			</React.Fragment>*/}
-			{/*		)*/}
-			{/*	})}*/}
 		</React.Fragment>
 	)
 }

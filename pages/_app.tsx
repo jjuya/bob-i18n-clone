@@ -15,7 +15,9 @@ function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<NextIntlClientProvider
 			locale={router.locale}
-			messages={pageProps.messages}>
+			messages={pageProps.messages}
+			timeZone={pageProps.timeZone}
+		>
 			<Component className={`${inter.className} ${poppins.className}`} {...pageProps} />
 		</NextIntlClientProvider>
 	)

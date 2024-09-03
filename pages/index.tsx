@@ -42,11 +42,13 @@ export default function Home({ ...props }) {
 }
 
 export async function getStaticProps({ locale }: GetStaticPropsContext) {
+	const lang = locale === 'default' ? 'ko' : locale
+
 	return {
 		props: {
 			messages: {
-				...require(`../messages/layout/${locale}.json`),
-				...require(`../messages/main/${locale}.json`),
+				...require(`../messages/layout/${lang}.json`),
+				...require(`../messages/main/${lang}.json`),
 			},
 		},
 	}
