@@ -1,10 +1,9 @@
 import React, { ReactNode, useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import { Layout } from 'antd'
+import { LayoutContainer } from './layout.style'
 import { Header } from './Header'
 import { Footer } from './Footer'
-import { LayoutContainer } from './layout.style'
-import { GetStaticPropsContext } from 'next'
 
 const { Content } = Layout
 

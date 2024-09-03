@@ -6,7 +6,7 @@ import { Row, Col } from 'antd'
 import { HeaderContainer, HeaderContentWrapper, HeaderMenu } from './layout.style'
 import LocaleSwitcher from '@/components/shared/LocaleSwitcher'
 
-export const Header = ({ lang, ...props }: { lang: string; onClickLangBtn: Event }) => {
+export const Header = ({ lang, ...props }: { lang: string }) => {
 	const CDN_ENDPOINT = process.env.CDN_ENDPOINT
 
 	const headerContent = useTranslations('HEADER')
