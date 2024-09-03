@@ -1,21 +1,4 @@
 {
-	"SEO": {
-		"title": "BOB",
-		"description": "Sự tươi mới của thiên nhiên",
-		"openGraph": {
-			"type": "website",
-			"locale": "vi_VN",
-			"title": "BOB",
-			"description": "Sự tươi mới của thiên nhiên",
-			"site_name": "BOB",
-			"images": [
-				{
-					"url": "/static/images/main_logo.jpg",
-					"alt": "BOB"
-				}
-			]
-		}
-	},
 	"MAIN": {
 		"img": {
 			"src": "/static/images/main-logo.jpg",
@@ -29,7 +12,8 @@
 			"alt": "ceo"
 		},
 		"greeting": {
-			"title": "Lời chào"
+			"title": "Lời chào",
+			"subtitle": "Doanh nghiệp toàn cầu tiên phong trong việc cung cấp nông sản an toàn và lành mạnh cho bữa ăn trên toàn thế giới"
 		},
 		"sign": {
 			"label": "Tổng giám đốc.",

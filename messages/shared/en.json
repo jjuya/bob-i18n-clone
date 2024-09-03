@@ -1,21 +1,4 @@
 {
-	"SEO": {
-		"title": "BOB",
-		"description": "The freshness of Mother Nature",
-		"openGraph": {
-			"type": "website",
-			"locale": "en_US",
-			"title": "BOB",
-			"description": "The freshness of Mother Nature",
-			"site_name": "BOB",
-			"images": [
-				{
-					"url": "/static/images/main_logo.jpg",
-					"alt": "BOB"
-				}
-			]
-		}
-	},
 	"MAIN": {
 		"img": {
 			"src": "/static/images/main-logo.jpg",
@@ -29,7 +12,8 @@
 			"alt": "ceo"
 		},
 		"greeting": {
-			"title": "Greeting"
+			"title": "Greeting",
+			"subtitle": "Global specialists leading the world's table with healthy and safe agricultural products"
 		},
 		"sign": {
 			"label": "C.E.O .",

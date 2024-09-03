@@ -1,17 +1,22 @@
 import React from 'react'
+import { useTranslations } from 'next-intl'
 import { MainSection } from './home.style'
 
-export const HomeMainSection = ({ CDN_ENDPOINT, ...props }: { CDN_ENDPOINT: string }) => (
-	<MainSection imageurl={`${CDN_ENDPOINT}/static/images/home/main-bg.png`}>
-		<div className="main-wrapper">
-			<div className="title-wrapper">
-				<img
-					src={`${CDN_ENDPOINT}/static/images/main-logo.jpg`}
-					alt="BOB_LOGO"
-					className="logo"
-				/>
-				<h1>The freshness of Mother Nature</h1>
+export const HomeMainSection = ({ CDN_ENDPOINT, ...props }: { CDN_ENDPOINT: string | undefined }) => {
+	const t = useTranslations('MAIN')
+
+	return (
+		<MainSection imageurl={`${CDN_ENDPOINT}/static/images/home/main-bg.png`}>
+			<div className="main-wrapper">
+				<div className="title-wrapper">
+					<img
+						src={`${CDN_ENDPOINT}${t('img.src')}`}
+						alt={t('img.alt')}
+						className="logo"
+					/>
+					<h1>{t('title')}</h1>
+				</div>
 			</div>
-		</div>
-	</MainSection>
-)
+		</MainSection>
+	)
+}

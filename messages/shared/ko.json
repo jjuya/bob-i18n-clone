@@ -1,20 +1,12 @@
 {
-	"SEO": {
-		"title": "BOB",
-		"description": "대자연의 신선함을 그대로, 건강하고 안전한 농산물로 세계 식탁을 선도하는 글로벌 전문기업",
-		"openGraph": {
-			"type": "website",
-			"locale": "ko_KR",
-			"title": "BOB",
-			"description": "대자연의 신선함을 그대로, 건강하고 안전한 농산물로 세계 식탁을 선도하는 글로벌 전문기업",
-			"site_name": "BOB",
-			"images": [
-				{
-					"url": "/static/images/main_logo.jpg",
-					"alt": "BOB"
-				}
-			]
-		}
+	"HEADER_MENU": {
+		"menuItems": {
+			"aboutUs": { "key": "about_us", "label": "회사소개" },
+			"factory": { "key": "factory", "label": "협력공장" },
+			"location": { "key": "location", "label": "오시는길" },
+			"business": { "key": "business", "label": "사업소개" }
+		},
+		"languageSwitcher": {}
 	},
 	"MAIN": {
 		"img": {
@@ -29,7 +21,8 @@
 			"alt": "ceo"
 		},
 		"greeting": {
-			"title": "인사말"
+			"title": "인사말",
+			"subtitle": "건강하고 안전한 농산물로 세계 식탁을 선도하는 글로벌 전문기업"
 		},
 		"sign": {
 			"label": "대표이사",

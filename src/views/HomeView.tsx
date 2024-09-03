@@ -5,9 +5,9 @@ import {
 	HomeAboutUsSection,
 	HomeFactorySection,
 	HomeBusinessSection,
-} from '@/components'
+} from '@/components/landing'
 
-export const HomeView = ({ CDN_ENDPOINT, ...props }: { CDN_ENDPOINT: string }) => {
+export const HomeView = ({ CDN_ENDPOINT, ...props }: { CDN_ENDPOINT: string | undefined }) => {
 	return (
 		<HomeContainer>
 			<HomeMainSection CDN_ENDPOINT={CDN_ENDPOINT} />
