@@ -1,10 +1,10 @@
 {
 	"HEADER_MENU": {
 		"menuItems": {
-			"aboutUs": { "key": "about_us", "label": "Giới thiệu Công ty" },
-			"factory": { "key": "factory", "label": "Nhà máy hợp tác" },
-			"location": { "key": "location", "label": "Giới thiệu Công ty" },
-			"business": { "key": "business", "label": "Địa chỉ" }
+			"about_us": "Giới thiệu Công ty",
+			"factory": "Nhà máy hợp tác",
+			"location": "Giới thiệu Công ty",
+			"business": "Địa chỉ"
 		},
 		"languageSwitcher": {
 			"en": { "label": "English", "value": "en" },

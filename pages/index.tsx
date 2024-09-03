@@ -5,9 +5,9 @@ import { HomeView } from '@/views'
 import { ApplicationLayout } from '@/layout'
 import { MenuContext } from '@/utils/MenuContext'
 
-import { CDN_ENDPOINT } from '@env'
-
 export default function Home({ ...props }) {
+	const CDN_ENDPOINT = process.env.CDN_ENDPOINT
+
 	const [menuKey, setMenuKey] = useState('MAIN')
 
 	const seoConfig = {
@@ -44,7 +44,10 @@ export default function Home({ ...props }) {
 export async function getStaticProps({ locale }: GetStaticPropsContext) {
 	return {
 		props: {
-			messages: (await import(`../messages/shared/${locale}.json`)).default,
+			messages: {
+				...require(`../messages/layout/${locale}.json`),
+				...require(`../messages/shared/${locale}.json`),
+			},
 		},
 	}
 }

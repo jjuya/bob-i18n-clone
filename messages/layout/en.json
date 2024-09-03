@@ -1,10 +1,10 @@
 {
 	"HEADER": {
 		"menuItems": {
-			"aboutUs": { "key": "about_us", "label": "Introduction" },
-			"factory": { "key": "factory", "label": "Cooperative factory" },
-			"location": { "key": "location", "label": "Location" },
-			"business": { "key": "business", "label": "Business introduction" }
+			"about_us": "Introduction",
+			"factory": "Cooperative factory",
+			"location": "Location",
+			"business": "Business introduction"
 		},
 		"languageSwitcher": {
 			"en": { "label": "English", "value": "en" },
