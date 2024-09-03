@@ -10,7 +10,7 @@ const nextConfig = {
 	},
 	swcMinify: true,
 	i18n: {
-		locales: ['default', 'en', 'ko', 'vi'],
+		locales: ['default', 'ko', 'en', 'vi'],
 		defaultLocale: 'default',
 		localeDetection: false,
 	},
