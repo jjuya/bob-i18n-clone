@@ -7,9 +7,9 @@
 			"business": "Business introduction"
 		},
 		"languageSwitcher": {
-			"en": { "label": "English", "value": "en" },
-			"ko": { "label": "한국어", "value": "ko" },
-			"vi": { "label": "Tiếng Việt", "value": "vi" }
+			"en": "English",
+			"ko": "한국어",
+			"vi": "Tiếng Việt"
 		}
 	},
 	"FOOTER": {

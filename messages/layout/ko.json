@@ -1,5 +1,5 @@
 {
-	"HEADER_MENU": {
+	"HEADER": {
 		"menuItems": {
 			"about_us": "회사소개",
 			"factory": "협력공장",
@@ -7,9 +7,9 @@
 			"business": "사업소개"
 		},
 		"languageSwitcher": {
-			"en": { "label": "English", "value": "en" },
-			"ko": { "label": "한국어", "value": "ko" },
-			"vi": { "label": "Tiếng Việt", "value": "vi" }
+			"en": "English",
+			"ko": "한국어",
+			"vi": "Tiếng Việt"
 		}
 	},
 	"FOOTER": {
