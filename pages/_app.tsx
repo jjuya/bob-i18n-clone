@@ -13,7 +13,11 @@ function MyApp({ Component, pageProps }: AppProps) {
 	const router = useRouter()
 
 	return (
-		<NextIntlClientProvider locale={router.locale} messages={pageProps.messages}>
+		<NextIntlClientProvider
+			locale={router.locale}
+			messages={pageProps.messages}
+			timeZone={pageProps.timeZone}
+		>
 			<Component className={`${inter.className} ${poppins.className}`} {...pageProps} />
 		</NextIntlClientProvider>
 	)

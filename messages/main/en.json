@@ -1,0 +1,47 @@
+{
+	"MAIN": {
+		"img": {
+			"src": "/static/images/main-logo.jpg",
+			"alt": "BOB-logo"
+		},
+		"title": "The freshness of Mother Nature"
+	},
+	"ABOUT_US": {
+		"ceoImg": {
+			"src": "/static/images/home/ceo-img.png",
+			"alt": "ceo"
+		},
+		"greeting": {
+			"title": "Greeting",
+			"subtitle": "Global specialists leading the world's table with healthy and safe agricultural products"
+		},
+		"sign": {
+			"label": "C.E.O .",
+			"name": "",
+			"img": {
+				"src": "/static/images/home/ceo-sign.png",
+				"alt": "sign"
+			}
+		}
+	},
+	"FACTORY": {
+		"withIn": {
+			"title": "Within the country"
+		},
+		"outside": {
+			"title": "Outside the country"
+		}
+	},
+	"BUSINESS_PROFILE": {
+		"title": "DOWNLOAD",
+		"img": {
+			"src": "/static/images/home/pdf-img.png",
+			"alt": "business-profile"
+		},
+		"ko": {
+			"label": "KOREAN",
+			"href": "/static/etc/About_BOB(ko).pdf"
+		},
+		"jp": { "label": "日本語", "href": "/static/etc/About_BOB(jp).pdf" }
+	}
+}

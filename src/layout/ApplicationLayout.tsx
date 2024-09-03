@@ -1,9 +1,9 @@
 import React, { ReactNode, useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import { Layout } from 'antd'
+import { LayoutContainer } from './layout.style'
 import { Header } from './Header'
 import { Footer } from './Footer'
-import { LayoutContainer } from './layout.style'
 
 const { Content } = Layout
 
@@ -31,18 +31,9 @@ export const ApplicationLayout = ({
 		Object.assign(contentStyle, { backgroundColor })
 	}
 
-	const onClickLangBtn = (lang: string) => () => {
-		setLang(lang)
-		if (lang === 'ko') {
-			router.push('/')
-		} else {
-			router.push(lang)
-		}
-	}
-
 	return (
 		<LayoutContainer className="layout">
-			<Header lang={lang} onClickLangBtn={onClickLangBtn} />
+			<Header lang={lang} />
 			<Content style={contentStyle}>{children}</Content>
 			<Footer lang={lang} />
 		</LayoutContainer>

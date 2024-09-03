@@ -1,0 +1,34 @@
+{
+	"HEADER": {
+		"menuItems": {
+			"about_us": "Introduction",
+			"factory": "Cooperative factory",
+			"location": "Location",
+			"business": "Business introduction"
+		},
+		"languageSwitcher": {
+			"en": "English",
+			"ko": "한국어",
+			"vi": "Tiếng Việt"
+		}
+	},
+	"FOOTER": {
+		"logo": {
+			"src": "/static/images/logo.png",
+			"alt": "BOB Co.,Ltd"
+		},
+		"companyName": "BOB Co.,Ltd",
+		"info": {
+			"ceo": { "label": "President", "value": "Kwon Young Du" },
+			"businessRegistrationNumber": {
+				"label": "Corporate registration number",
+				"value": "131111-0728469"
+			},
+			"address": {
+				"origin": "",
+				"en": "(Head Office) R280, No202, 15 Jeongjail-ro. Bundang-gu. Seongnam-si, Gyeonggi-do, Republicof Korea(13616)"
+			}
+		},
+		"contact": { "label": "Contact", "href": "mailto:gksdyd88@gmail.com" }
+	}
+}

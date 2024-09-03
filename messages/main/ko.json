@@ -1,0 +1,56 @@
+{
+	"HEADER_MENU": {
+		"menuItems": {
+			"aboutUs": { "key": "about_us", "label": "회사소개" },
+			"factory": { "key": "factory", "label": "협력공장" },
+			"location": { "key": "location", "label": "오시는길" },
+			"business": { "key": "business", "label": "사업소개" }
+		},
+		"languageSwitcher": {}
+	},
+	"MAIN": {
+		"img": {
+			"src": "/static/images/main-logo.jpg",
+			"alt": "BOB-logo"
+		},
+		"title": "대자연의 신선함을 그대로"
+	},
+	"ABOUT_US": {
+		"ceoImg": {
+			"src": "/static/images/home/ceo-img.png",
+			"alt": "ceo"
+		},
+		"greeting": {
+			"title": "인사말",
+			"subtitle": "건강하고 안전한 농산물로 세계 식탁을 선도하는 글로벌 전문기업"
+		},
+		"sign": {
+			"label": "대표이사",
+			"name": "권영두",
+			"img": {
+				"src": "/static/images/home/ceo-sign.png",
+				"alt": "sign"
+			}
+		}
+	},
+	"FACTORY": {
+		"withIn": {
+			"title": "국내"
+		},
+		"outside": {
+			"title": "국외"
+		}
+	},
+	"BUSINESS_PROFILE": {
+		"title": "회사소개서 다운로드",
+		"img": {
+			"src": "/static/images/home/pdf-img.png",
+			"alt": "회사소개서"
+		},
+		"ko": {
+			"label": "한국어",
+			"href": "/static/etc/About_BOB(ko).pdf"
+		},
+		"jp": { "label": "日本語", "href": "/static/etc/About_BOB(jp).pdf" }
+	}
+}
