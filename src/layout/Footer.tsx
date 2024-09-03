@@ -26,12 +26,12 @@ export const Footer = ({ lang, ...props }: { lang: string }) => {
 							</p>
 							<p>{footerContents('info.businessRegistrationNumber.value')}</p>
 						</div>
-						{footerContents('info.address.origin') !== 'FOOTER.info.address.origin' && (
+						{footerContents('info.address.origin') !== '' && (
 							<div className="company-info">
 								<p>{footerContents('info.address.origin')}</p>
 							</div>
 						)}
-						{footerContents('info.address.en') !== 'FOOTER.info.address.en' && (
+						{footerContents('info.address.en') !== '' && (
 							<div className="company-info">
 								<p>{footerContents('info.address.en')}</p>
 							</div>

@@ -68,7 +68,7 @@ export const HomeAboutUsSection = ({ CDN_ENDPOINT, ...props }: { CDN_ENDPOINT: s
 						<div className="sign-wrapper">
 							<p>
 								<b>{t('sign.label')}</b>
-								{!t('sign.name') ? t('sign.name') : null}
+								{t('sign.name')}
 							</p>
 							<img
 								src={`${CDN_ENDPOINT}${t('sign.img.src')}`}

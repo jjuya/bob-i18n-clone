@@ -17,6 +17,7 @@
 		},
 		"sign": {
 			"label": "C.E.O .",
+			"name": "",
 			"img": {
 				"src": "/static/images/home/ceo-sign.png",
 				"alt": "sign"
