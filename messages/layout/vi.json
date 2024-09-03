@@ -1,0 +1,33 @@
+{
+	"HEADER_MENU": {
+		"menuItems": {
+			"aboutUs": { "key": "about_us", "label": "Giới thiệu Công ty" },
+			"factory": { "key": "factory", "label": "Nhà máy hợp tác" },
+			"location": { "key": "location", "label": "Giới thiệu Công ty" },
+			"business": { "key": "business", "label": "Địa chỉ" }
+		},
+		"languageSwitcher": {
+			"en": { "label": "English", "value": "en" },
+			"ko": { "label": "한국어", "value": "ko" },
+			"vi": { "label": "Tiếng Việt", "value": "vi" }
+		}
+	},
+	"FOOTER": {
+		"logo": {
+			"src": "/static/images/logo.png",
+			"alt": "ông ty Cổ phần BOB"
+		},
+		"companyName": "Công ty Cổ phần BOB",
+		"info": {
+			"ceo": { "label": "Tổng Giám đốc", "value": "Kwon Young Du" },
+			"businessRegistrationNumber": {
+				"label": "Số đăng ký doanh nghiệp",
+				"value": "131111-0728469"
+			},
+			"address": {
+				"origin": "(Trụ sở chính) : 202, R280, 15 Jeongja-il-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, Hàn Quốc)"
+			}
+		},
+		"contact": { "label": "Câu hỏi", "href": "mailto:gksdyd88@gmail.com" }
+	}
+}
