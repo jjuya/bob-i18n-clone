@@ -27,10 +27,49 @@
 	},
 	"FACTORY": {
 		"withIn": {
-			"title": "Tại Hàn Quốc"
+			"title": "Tại Hàn Quốc",
+			"factories": {
+				"factory1": {
+					"img": {
+						"src": "/static/images/home/factory-01.png",
+						"alt": "Các nhà máy chế biến nông sản thân thiện với môi trường"
+					},
+					"title": "Các nhà máy chế biến nông sản thân thiện với môi trường"
+				},
+				"factory2": {
+					"img": {
+						"src": "/static/images/home/factory-02.png",
+						"alt": "Nhà máy chế biến kim chi và dưa muối"
+					},
+					"title": "Nhà máy chế biến kim chi và dưa muối"
+				},
+				"factory3": {
+					"img": {
+						"src": "/static/images/home/factory-03.png",
+						"alt": "Nhà máy chế biến cơm hộp theo đơn đặt hàng"
+					},
+					"title": "Nhà máy chế biến cơm hộp theo đơn đặt hàng"
+				}
+			}
 		},
 		"outside": {
-			"title": "Tại Nước ngoài"
+			"title": "Tại Nước ngoài",
+			"factories": {
+				"factory1": {
+					"img": {
+						"src": "/static/images/home/factory-04.jpg",
+						"alt": "Nhà máy chế biến nông sản thông minh tại Cần Thơ, Việt Nam"
+					},
+					"title": "Nhà máy chế biến nông sản thông minh tại Cần Thơ, Việt Nam<br />(hoàn thành giai đoạn 1 vào tháng 1 năm 2024 / diện tích 15,000 m²)."
+				},
+				"factory2": {
+					"img": {
+						"src": "/static/images/home/factory-05.png",
+						"alt": "Nhà máy chế biến nông sản tại Hậu Giang, Việt Nam"
+					},
+					"title": "Nhà máy chế biến nông sản tại Hậu Giang, Việt Nam<br />(dự kiến hoàn thành vào tháng 3 năm 2025 / diện tích 21.000 m²)."
+				}
+			}
 		}
 	},
 	"BUSINESS_PROFILE": {
