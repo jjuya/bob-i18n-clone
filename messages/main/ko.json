@@ -36,10 +36,49 @@
 	},
 	"FACTORY": {
 		"withIn": {
-			"title": "국내"
+			"title": "국내",
+			"factories": {
+				"factory1": {
+					"img": {
+						"src": "/static/images/home/factory-01.png",
+						"alt": "친환경 유기농 가공공장"
+					},
+					"title": "친환경 유기농 가공공장"
+				},
+				"factory2": {
+					"img": {
+						"src": "/static/images/home/factory-02.png",
+						"alt": "김치 및 절임 가공공장"
+					},
+					"title": "김치 및 절임 가공공장"
+				},
+				"factory3": {
+					"img": {
+						"src": "/static/images/home/factory-03.png",
+						"alt": "맞춤형 도시락 가공공장"
+					},
+					"title": "맞춤형 도시락 가공공장"
+				}
+			}
 		},
 		"outside": {
-			"title": "국외"
+			"title": "국외",
+			"factories": {
+				"factory1": {
+					"img": {
+						"src": "/static/images/home/factory-04.jpg",
+						"alt": "베트남 껀터 스마트 농산물 가공공장"
+					},
+					"title": "베트남 껀터 스마트 농산물 가공공장<br />( 2024년 1차 완공 / 15,000평 )"
+				},
+				"factory2": {
+					"img": {
+						"src": "/static/images/home/factory-05.png",
+						"alt": "베트남 하우장 농산물 가공공장"
+					},
+					"title": "베트남 하우장 농산물 가공공장<br />( 2025년 3월 완공 / 21,000평 )"
+				}
+			}
 		}
 	},
 	"BUSINESS_PROFILE": {

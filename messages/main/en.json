@@ -27,10 +27,49 @@
 	},
 	"FACTORY": {
 		"withIn": {
-			"title": "Within the country"
+			"title": "Within the country",
+			"factories": {
+				"factory1": {
+					"img": {
+						"src": "/static/images/home/factory-01.png",
+						"alt": "eco-friendly agricultural product processing plant"
+					},
+					"title": "eco-friendly agricultural product processing plant"
+				},
+				"factory2": {
+					"img": {
+						"src": "/static/images/home/factory-02.png",
+						"alt": "Kimchi and pickles processing plant"
+					},
+					"title": "Kimchi and pickles processing plant"
+				},
+				"factory3": {
+					"img": {
+						"src": "/static/images/home/factory-03.png",
+						"alt": "custom-made lunch-box processing plant"
+					},
+					"title": "custom-made lunch-box processing plant"
+				}
+			}
 		},
 		"outside": {
-			"title": "Outside the country"
+			"title": "Outside the country",
+			"factories": {
+				"factory1": {
+					"img": {
+						"src": "/static/images/home/factory-04.jpg",
+						"alt": "Vietnam Cần Thơ Smart Agricultural Products Processing Plant"
+					},
+					"title": "Vietnam Cần Thơ Smart Agricultural Products Processing Plant<br />(first completed in 2024 / 15,000 pyeong)"
+				},
+				"factory2": {
+					"img": {
+						"src": "/static/images/home/factory-05.png",
+						"alt": "Vietnam Hậu Giang Agricultural Products Processing Plant"
+					},
+					"title": "Vietnam Hậu Giang Agricultural Products Processing Plant<br />(completed in March 2025 / 21,000 pyeong)"
+				}
+			}
 		}
 	},
 	"BUSINESS_PROFILE": {
